@@ -3,6 +3,7 @@ version: '3'
 services:
   labpets:
     build: .
+    dockerfile: dockerfile_labpets
     volumes:
       - .:/code
     ports:
